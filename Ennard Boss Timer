@@ -3,11 +3,11 @@ import tkinter as tk
 from datetime import timedelta
 
 class DualStopwatchApp:
-    def __init__(self, master): #If you're reading this to learn more about code, thats pretty cool bro true mutt right there
+    def __init__(self, master):
         self.master = master
-        self.master.title("TheBones5 Ennard Interval Timer")
+        self.master.title("Ennard Interval Timer")
 
-        self.intro_label = tk.Label(master, text="Welcome to TheBones5 Ennard Interval Timer!\nSubscribe to TheBones5 YouTube channel on YouTube.", font=('Helvetica', 24))
+        self.intro_label = tk.Label(master, text="Welcome to The Ennard Interval Timer!", font=('Helvetica', 24))
         self.intro_label.pack(pady=20)
 
         self.start_button = tk.Button(master, text="Start", command=self.start_timers)
@@ -78,4 +78,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = DualStopwatchApp(root)
     root.mainloop()
-	
+
