@@ -79,5 +79,3 @@ if __name__ == "__main__":
     app = DualStopwatchApp(root)
     root.mainloop()
 
-#im really meowing hard as hell rn middle of the night mewmaxxing
-#really just trying to learn how to code more and more with the more classes that im taking in college everybody stinks literally 
