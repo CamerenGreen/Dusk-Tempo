@@ -66,7 +66,7 @@ class DualStopwatchApp:
             self.is_running = False
 
     def show_move_message(self):
-        self.message_label.config(text="Ennard has a movement oppertunity")
+        self.message_label.config(text="Ennard has a movement opprotunity")
         self.master.after(1000, self.clear_message)  # Clear message after 1000 milliseconds (1 second)
 
     def clear_message(self):
