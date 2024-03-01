@@ -5,7 +5,7 @@ from datetime import timedelta
 class DualStopwatchApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("This is the FNAF 1 Interval Timer")
+        self.master.title("FNAF 1 Interval Timer")
 
         self.intro_label = tk.Label(master, text="Welcome to The FNAF 1 Interval Timer!", font=('Helvetica', 24))
         self.intro_label.pack(pady=20)
