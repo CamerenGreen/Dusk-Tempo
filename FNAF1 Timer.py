@@ -1,5 +1,5 @@
 
-import tkinter as tk this source is already completed
+import tkinter as tk
 from datetime import timedelta
 
 class DualStopwatchApp:
