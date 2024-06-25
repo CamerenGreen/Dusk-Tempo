@@ -77,12 +77,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = DualStopwatchApp(root)
     root.mainloop()
-
-
-filler
-lines
-to
-stat
-pad
-lol
-idek
