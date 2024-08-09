@@ -61,7 +61,7 @@ class DualStopwatchApp:
             self.is_running = False
 
     def show_move_message(self):
-        self.message_label.config(text="All animatronics have a movement opprotunity")
+        self.message_label.config(text="Side ani's has had a movement opprotunity")
         self.master.after(1000, self.clear_message)  # Clear message after 1000 milliseconds (1 second)
 
     def clear_message(self):
