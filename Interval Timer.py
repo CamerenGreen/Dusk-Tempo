@@ -1,7 +1,6 @@
 import tkinter as tk
 from datetime import timedelta
 
-class IntervalTimerApp:
         master = master
         master.title("Interval Timer")
 
