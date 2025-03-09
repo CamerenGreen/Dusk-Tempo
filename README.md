@@ -18,8 +18,8 @@ python Interval_Timer.py
 
 Example
 
-Total Intervals: 4
-Interval Times: 30, 60, 30, 60
+- Total Intervals: 4
+- Interval Times: 30, 60, 30, 60
 
 This setup will create a session with four intervals, alternating between 30 seconds and 60 seconds. The background color will change between red and green as the intervals progress.
 
