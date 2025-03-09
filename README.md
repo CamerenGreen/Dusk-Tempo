@@ -14,13 +14,20 @@ Installation
 
 Run the script using the following command:
 
-python Interval_Timer.py
+"python Interval_Timer.py"
 
 Example
 
 - Total Intervals: 4
 - Interval Times: 30, 60, 30, 60
 
-This setup will create a session with four intervals, alternating between 30 seconds and 60 seconds. The background color will change between red and green as the intervals progress.
+This setup will create a session with four intervals, alternating between 30 seconds and 60 seconds. The background color will change between red and green as the intervals progress. I suggest if you're using it as a workout or interval for resting and working to have your resting interval be the first number you put in, followed by the working time interval.
+
+Example
+
+- Total Intervals: 10
+- Interval Times: 600, 3600
+
+This setup would have your rest time last for 10 minutes and then a work interval for an hour
 
 
